@@ -174,7 +174,7 @@ class VentanaPrincipal(QtWidgets.QMainWindow, Ui_MainWindow):
             self.error = False
 
     def parag_div(self, text):
-        return re.split("(\\t|\\r|\\f|\\v|\\n)+(?![а-яё])", text)
+        return re.split("(\\t|\\r|\\f|\\v|\\n)+((?![а-яё]))", text)
 
     def sent_div(self, text):
         return re.split('(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', text)
