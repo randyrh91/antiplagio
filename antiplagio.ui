@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>685</width>
-    <height>601</height>
+    <height>733</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,21 +17,21 @@
    <widget class="QPushButton" name="pushButtonAddFile">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>70</y>
+      <x>40</x>
+      <y>200</y>
       <width>191</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Добавить документ</string>
+     <string>Добавить документов</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonExecute">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>417</y>
+      <x>490</x>
+      <y>547</y>
       <width>151</width>
       <height>31</height>
      </rect>
@@ -43,8 +43,8 @@
    <widget class="QLabel" name="labelFileName_2">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>130</y>
+      <x>290</x>
+      <y>260</y>
       <width>341</width>
       <height>21</height>
      </rect>
@@ -56,8 +56,8 @@
    <widget class="QLabel" name="labelExecute">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>380</y>
+      <x>40</x>
+      <y>510</y>
       <width>591</width>
       <height>16</height>
      </rect>
@@ -69,8 +69,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>10</y>
+      <x>210</x>
+      <y>30</y>
       <width>301</width>
       <height>31</height>
      </rect>
@@ -87,8 +87,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>460</y>
+      <x>30</x>
+      <y>590</y>
       <width>611</width>
       <height>20</height>
      </rect>
@@ -100,8 +100,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>490</y>
+      <x>200</x>
+      <y>620</y>
       <width>231</width>
       <height>20</height>
      </rect>
@@ -113,8 +113,8 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>520</y>
+      <x>280</x>
+      <y>650</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -126,8 +126,8 @@
    <widget class="QPushButton" name="pushButton_DeleteFile">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>317</y>
+      <x>490</x>
+      <y>447</y>
       <width>151</width>
       <height>31</height>
      </rect>
@@ -139,8 +139,8 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>360</y>
+      <x>40</x>
+      <y>490</y>
       <width>601</width>
       <height>16</height>
      </rect>
@@ -152,10 +152,33 @@
    <widget class="QListWidget" name="listWidget">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>110</y>
+      <x>40</x>
+      <y>240</y>
       <width>601</width>
       <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonAddFileOriginal">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить документ</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="fileWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>130</y>
+      <width>601</width>
+      <height>51</height>
      </rect>
     </property>
    </widget>
