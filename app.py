@@ -241,10 +241,12 @@ class VentanaPrincipal(QtWidgets.QMainWindow, Ui_MainWindow):
         return fullText
 
     def generate_html(self, html):
-        f = open('report/reporte.html', 'w', encoding =  'utf-8')
+        f = open('/report/reporte.html', 'w', encoding =  'utf-8')
         f.write(html)
         f.close()
-        webbrowser.open_new_tab('report/reporte.html')
+        wd = os.getcwd()
+        webbrowser.register('chrome',None, webbrowser.BackgroundBrowser("C://Program Files (x86)//Google//Chrome//Application//chrome.exe"))
+        webbrowser.get('chrome').open_new_tab(str(wd) + '/report/reporte.html')
 
     def process_file(self, file_name):
         doc, ext = os.path.splitext(file_name)
